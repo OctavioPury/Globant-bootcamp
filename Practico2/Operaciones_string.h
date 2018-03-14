@@ -1,6 +1,7 @@
 //Operaciones_string.h
 #ifndef Operaciones_string
 #define Operaciones_string
+#include <string>
 
 using std::string;
 
