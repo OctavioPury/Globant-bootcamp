@@ -2,6 +2,7 @@
 #include "stdafx.h"
 #include <cstdlib>
 #define PI 3.1415926535
+#define MAX(A, B) ((A) > (B) ? (A) : (B))
 
 int numSquare(int a) {
 	return a * a;
@@ -16,5 +17,5 @@ double circleArea(double r) {
 }
 
 int maximum(int a, int b) {
-	return ((a) > (b) ? (a) : (b));
+	return MAX(a, b);
 }

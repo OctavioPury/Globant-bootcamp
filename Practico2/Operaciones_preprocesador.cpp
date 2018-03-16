@@ -2,7 +2,6 @@
 #include "stdafx.h"
 #include <iostream>
 #include <string>
-#define LITERAL "HELLO WORLD"
 #define NAME(A) (string (#A))
 
 using namespace std;
@@ -12,5 +11,6 @@ string concat(size_t var1, size_t var2) {
 }
 
 void printLit() {
-	cout << LITERAL << endl;
+	unsigned int literal = 10u;
+	cout << literal << endl;
 }
